@@ -50,8 +50,8 @@ The system uses gRPC for inter-service communication and HTTP for external API e
 │       ├── grpc.go          # gRPC server implementation
 │       ├── http.go          # HTTP server implementation
 │       └── main.go          # Entry point
-├── go.mod/                  # Go module file
-│   ├── go.sum               # Go sum file
+├── go.mod                   # Go module file
+├── go.sum                   # Go sum file
 └── Makefile                 # Build and run commands
 ```
 
